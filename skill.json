@@ -1,0 +1,49 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:208105595060:function:dfeaa134-5bf8-49c9-8460-708d82e9225d:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:208105595060:function:dfeaa134-5bf8-49c9-8460-708d82e9225d:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:208105595060:function:dfeaa134-5bf8-49c9-8460-708d82e9225d:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:208105595060:function:dfeaa134-5bf8-49c9-8460-708d82e9225d:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "fr-FR": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa ouvre le génie des salutations",
+            "bonjour",
+            "aide"
+          ],
+          "keywords": [],
+          "name": "covid stats",
+          "summary": "Sample Short Description"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}

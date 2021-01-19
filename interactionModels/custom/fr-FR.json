@@ -1,0 +1,120 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "covid stats",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "donne moi un pays"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "CountryCovidIntent",
+          "slots": [
+            {
+              "name": "pays",
+              "type": "AMAZON.Country"
+            }
+          ],
+          "samples": [
+            "le nombre de décès en {pays}",
+            "le nombre de nouveaux cas en {pays}",
+            "le nombre de morts en {pays}",
+            "le nombre de cas en {pays}",
+            "il y a combien de nouveaux cas au {pays}",
+            "il y a combien de nouveaux cas en {pays}",
+            "combien de nouveaux cas en {pays}",
+            "je veux connaitre la {pays}",
+            "je veux connaitre le {pays}",
+            "{pays}"
+          ]
+        },
+        {
+          "name": "OwnCountryIntent",
+          "slots": [],
+          "samples": [
+            "combien de cas dans mon pays",
+            "combien de nouveaux décès dans mon pays",
+            "combien de nouveaux cas dans mon pays",
+            "cas covid dans mon pays",
+            "les statistiques de mon pays",
+            "mon pays"
+          ]
+        },
+        {
+          "name": "AddOwnCountryIntent",
+          "slots": [
+            {
+              "name": "pays",
+              "type": "AMAZON.Country"
+            }
+          ],
+          "samples": [
+            "enregistre le {pays}",
+            "enregistre la {pays}",
+            "je veux ajouter l  {pays}",
+            "je veux enregistrer l {pays}",
+            "je veux enregistrer le {pays}",
+            "je veux ajouter le {pays}",
+            "je veux sauvegarder la {pays}",
+            "j\u0027habite en {pays}",
+            "j\u0027habite au {pays}",
+            "je veux ajouter la {pays}",
+            "je veux enregistrer la {pays}"
+          ]
+        },
+        {
+          "name": "WorldStatsIntent",
+          "slots": [],
+          "samples": [
+            "monde",
+            "il y a combien de cas dans le monde",
+            "combien de nouveau cas dans le monde",
+            "nombre dans de cas dans le monde",
+            "dans le monde",
+            "combien dans le monde"
+          ]
+        },
+        {
+          "name": "TopCountryIntent",
+          "slots": [],
+          "samples": [
+            "le pays qui a plus de nouveaux décès",
+            "le pays qui a le plus de nouveaux cas",
+            "pays qui a le plus de nouveaux décès",
+            "pays qui a le plus de nouveaux cas ",
+            "le plus de décès",
+            "le plus de cas ",
+            "Qui a le plus de cas ",
+            "Quel pays a le plus de nouveaux décès",
+            "Quel pays a le plus de nouveaux cas ",
+            "Quel est le premier pays",
+            "Quel pays a le plus de décès",
+            "Quel pays a le plus de morts",
+            "Quel pays a le plus de cas"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "14"
+}
